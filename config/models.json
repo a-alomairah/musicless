@@ -1,0 +1,13 @@
+{
+  "models": [
+    {
+      "id": "big-beta-4",
+      "name": "Mel-Band RoFormer Big Beta 4",
+      "checkpoint": "melband_roformer_big_beta4.ckpt",
+      "config": "config_melbandroformer_big_beta4.yaml",
+      "min_bytes": 1400000000,
+      "sha256": "700a9bd3831d4f7f44cc0019b238774e31045bcbc361fbb69235535c40fc1454",
+      "config_sha256": "464f21925d2744be6af64cf9ee78d5937d11cfde0b91f819cb1f631acccab603"
+    }
+  ]
+}

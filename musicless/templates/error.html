@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="card">
+  <h1>{{ t('Unable to complete this request') }}</h1>
+  <p role="alert">{{ message }}</p>
+  <a href="/">{{ t('Back to upload') }}</a>
+</section>
+{% endblock %}

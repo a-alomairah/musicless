@@ -1,0 +1,14 @@
+**
+!Dockerfile
+!requirements-*.txt
+!requirements-*.lock
+!constraints-worker.txt
+!musicless
+!musicless/**
+!config
+!config/models.json
+!tests
+!tests/**
+!pytest.ini
+**/__pycache__
+**/*.pyc

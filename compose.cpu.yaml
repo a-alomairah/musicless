@@ -1,0 +1,9 @@
+# Explicit CPU mode only. Requires Docker Compose supporting !reset.
+services:
+  worker:
+    environment:
+      ALLOW_CPU: 'true'
+    deploy:
+      resources:
+        reservations:
+          devices: !reset []
